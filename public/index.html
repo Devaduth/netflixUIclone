@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Clone</title>
     <link rel="stylesheet" href="../src/output.css">
+
+    <style>
+        .hero {
+            background-image: url(/public/assets/hero.jpg);
+            background-size: cover;
+            background-repeat: no-repeat; 
+
+        }
+    </style>
 </head>
+
 <body>
-    
+    <section>
+        <div class="hero w-screen h-screen bg-black opacity-90">
+            <div class="hero-content flex flex-col ">
+                <h1 class="text-white text-4xl">Unlimited movies, TV shows and more</h1>
+                <h4>Starts at ₹149. Cancel at any time.</h4>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+                <div>
+                    <input type="text">
+                    <button>Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
